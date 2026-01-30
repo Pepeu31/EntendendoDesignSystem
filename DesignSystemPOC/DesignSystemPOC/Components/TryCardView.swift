@@ -13,13 +13,10 @@ struct TryCardView: View {
         HStack(spacing: -1){
             ZStack{
                 Rectangle()
-                    .foregroundStyle(Color.tryCard)
-                    .frame(width: 297, height: 47)
+                    .largeRectanglePropeties()
                 
                 Rectangle()
-                    .foregroundStyle(Color.blueConfirm)
-                    .frame(width: 10, height: 47)
-                    .padding(.trailing, 300)
+                    .smallRectanglePropeties()
             }
             StatusCardView()
         }

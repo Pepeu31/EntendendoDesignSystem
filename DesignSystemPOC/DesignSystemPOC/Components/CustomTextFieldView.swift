@@ -10,6 +10,7 @@ import SwiftUI
 /// Componentisation of the Textfield that contains the player answers
 struct CustomTextFieldView: View {
     /// Variable responsable to save and storage the player answer on the TextField
+    /// In this case, the extension is not used because of his unique customization 
     @State var answerText: String = ""
     
     

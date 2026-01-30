@@ -22,7 +22,6 @@ struct GuessView: View {
                             
                     } .padding(.bottom, 50)
                     
-//                    SVGImage(url: URL(string: "https://www.logotypes.dev/static/logos/spotify-glyph-color.svg")!)
                     
                     VStack{
                         TryCardView()

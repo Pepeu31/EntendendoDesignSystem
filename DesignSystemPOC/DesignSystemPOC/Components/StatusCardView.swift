@@ -13,11 +13,9 @@ struct StatusCardView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundStyle(Color.tryCard)
-                .frame(width: 47, height: 47)
+                .statusSquarePropeties()
             
         }
-
     }
 }
 

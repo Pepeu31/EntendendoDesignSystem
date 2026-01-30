@@ -12,22 +12,16 @@ struct HitsCardView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundStyle(.topCard)
-                .frame(width: 75, height: 51)
+                .topCardPropeties()
             
             VStack(){
                 Text("0")
-                    .foregroundStyle(Color.topText)
-                    .font(.system(size: 24))
-                    .bold()
-                    .padding(.leading, 45)
+                    .cardFont()
                 
                 Text("acertos")
-                    .foregroundStyle(Color.topText)
-                    .font(.system(size: 15))
-                    .padding(.leading, 20)
+                    .cardFontSubtitle()
             }
-        }
+        }.frame(width: 75, height: 51)
     }
 }
 
