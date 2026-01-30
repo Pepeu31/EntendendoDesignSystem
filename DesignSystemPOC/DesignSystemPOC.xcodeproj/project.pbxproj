@@ -35,14 +35,9 @@
 			path = DesignSystemPOC;
 			sourceTree = "<group>";
 		};
-		8AEF075F2F2D2220003CD072 /* DesignSystemPOCTests */ = {
+		8AEF07792F2D234A003CD072 /* View */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DesignSystemPOCTests;
-			sourceTree = "<group>";
-		};
-		8AEF07692F2D2220003CD072 /* DesignSystemPOCUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DesignSystemPOCUITests;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,9 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				8AEF07512F2D221F003CD072 /* DesignSystemPOC */,
-				8AEF075F2F2D2220003CD072 /* DesignSystemPOCTests */,
-				8AEF07692F2D2220003CD072 /* DesignSystemPOCUITests */,
 				8AEF07502F2D221F003CD072 /* Products */,
+				8AEF07792F2D234A003CD072 /* View */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +103,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				8AEF07512F2D221F003CD072 /* DesignSystemPOC */,
+				8AEF07792F2D234A003CD072 /* View */,
 			);
 			name = DesignSystemPOC;
 			packageProductDependencies = (
@@ -130,9 +125,6 @@
 			dependencies = (
 				8AEF075E2F2D2220003CD072 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8AEF075F2F2D2220003CD072 /* DesignSystemPOCTests */,
-			);
 			name = DesignSystemPOCTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +144,6 @@
 			);
 			dependencies = (
 				8AEF07682F2D2220003CD072 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8AEF07692F2D2220003CD072 /* DesignSystemPOCUITests */,
 			);
 			name = DesignSystemPOCUITests;
 			packageProductDependencies = (
