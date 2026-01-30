@@ -19,19 +19,19 @@ struct GuessView: View {
                     HStack(spacing: 255){
                         HitsCardView()
                         PointsCardView()
-                            
+                        
                     } .padding(.bottom, 50)
                     
+                    Spacer()
                     
                     VStack{
-                        TryCardView()
-                        TryCardView()
-                        TryCardView()
-                        TryCardView()
-                        TryCardView()
-                    } .padding(.top, 50)
-                        .padding(.bottom, 24)
-                        
+                        ForEach(0...4, id: \.self){ _ in
+                            TryCardView()
+                        }
+                    }
+                    .padding(.top, 50)
+                    .padding(.bottom, 24)
+                    
                     CustomTextFieldView()
                 })
         
